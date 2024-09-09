@@ -138,11 +138,7 @@ if(window.location.href.includes('ais.usvisa-info.com'))
 		{
 			setTimeout(function(){
 				window.scrollBy(0,300);
-			}, 500);	
-
-			setTimeout(function(){
-				$("#appointments_consulate_appointment_facility_id").val(96).change();
-			}, 1000);						
+			}, 500);						
 		}
 
 		var loop_interval = setInterval(function() {
