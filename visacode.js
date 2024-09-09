@@ -360,6 +360,7 @@ function close_false_scan()
 			{
 				$("#is_scan_status").click();
 			}		
+			console.log("closed scan 1");
 			$("#is_scan_status").attr("disabled", true);
 			localStorage.setItem("is_scan_status","off");				
 		}
@@ -371,7 +372,8 @@ function close_false_scan()
 			if($("#is_scan_status").is(":checked"))
 			{
 				$("#is_scan_status").click();
-			}		
+			}	
+			console.log("closed scan 2");	
 			$("#is_scan_status").attr("disabled", true);
 			localStorage.setItem("is_scan_status","off");				
 		}
@@ -387,6 +389,7 @@ function disable_scan_box()
 		{
 			$("#is_scan_status").click();
 		}		
+		console.log("closed scan 3");	
 		$("#is_scan_status").attr("disabled", true);
 		localStorage.setItem("is_scan_status","off");	
 	}
@@ -396,6 +399,7 @@ function disable_scan_box()
 		{
 			if(!$("#is_scan_status").is(":checked"))
 			{
+				console.log("closed scan 4");	
 				$("#is_scan_status").attr("disabled", true);
 			}
 		}
