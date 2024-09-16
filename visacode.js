@@ -257,7 +257,7 @@ $(document).ajaxSuccess(function( event, xhr, settings ) {
 							setTimeout(function(){
 								$("#appointments_submit").click();
 								setTimeout(function(){
-						//			$(".button.alert").click();
+									$(".button.alert").click();
 								}, 150);
 							}, 150);
 						}	
